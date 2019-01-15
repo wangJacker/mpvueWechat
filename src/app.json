@@ -1,13 +1,34 @@
 {
-  "pages": [
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  }
+    "pages": [
+        "pages/index/main",
+        "pages/logs/main",
+        "pages/counter/main"
+    ],
+    "window":
+    {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar":
+    {
+        "color": "#9F8D89",
+        "selectedColor": "#351009",
+        "borderStyle": "white",
+        "backgroundColor": "#fff",
+        "list": [
+        {
+            "pagePath": "pages/index/main",
+            "text": "优礼商城",
+            "iconPath": "static/images/index.png",
+            "selectedIconPath": "static/images/indexSelected.png"
+        },
+        {
+            "pagePath": "pages/counter/main",
+            "text": "分类页面",
+            "iconPath": "static/images/classfiy.png",
+            "selectedIconPath": "static/images/classfiySelected.png"
+        }]
+    }
 }

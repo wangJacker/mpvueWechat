@@ -16,7 +16,7 @@
             <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
         </form>
         <a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>
-        <h3 class="title">测试永猎</h3>
+        <h3 class="title">测试永猎<span>7878</span></h3>
     </div>
 </template>
 <script>
@@ -63,10 +63,15 @@ export default {
 }
 
 </script>
-<style scoped>
-.title{
+<style scoped lang="less">
+.title {
     height: 40px;
+
+    span {
+        color: red;
+    }
 }
+
 .userinfo {
     display: flex;
     flex-direction: column;
